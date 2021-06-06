@@ -1,0 +1,16 @@
+.banner {
+  color: white;
+  text-align: center;
+  background-color: #97bb7d;
+  background-image: linear-gradient(to right, #95b181, #bbd8a6);
+  transition: 0.5s;
+}
+
+.btn-toko {
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.btn-toko:hover {
+  color: rgb(243, 239, 239);
+}

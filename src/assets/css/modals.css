@@ -1,0 +1,25 @@
+.modal-login-body {
+    background-color: #FAD585;
+}
+
+.modal-login-header{
+    background-color: #FAD585;
+}
+.modal-login-header h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.modal-login-footer{
+    background-color: #FAD585;
+}
+
+.login-input {
+    width: 100%;
+    border: none;
+}
+
+.login-button {
+    background-color: #184D47;
+    width: 100%;
+}

@@ -1,0 +1,74 @@
+.container-produk {
+  background-color: white;
+  width: 100%;
+}
+
+.gambar-produk {
+  width: 330px;
+}
+
+.deskripsi-produk {
+  /* background-color: white; */
+  width: 670px;
+}
+
+.btn-beli {
+  background-color: #184d47;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 48%;
+}
+
+.btn-keranjang {
+  background-color: white;
+  color: #184d47;
+  border: 4px solid #184d47;
+  border-radius: 5px;
+  padding: 5px;
+  width: 48%;
+}
+
+.thumb-toko {
+  background-color: white;
+}
+.thumb-deskripsi {
+  background-color: white;
+}
+
+.toko-img {
+  height: 100px;
+  width: 100px;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+#detail-produk .btn-kuantitas {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: #d6efc7;
+}
+
+#detail-produk .kuantitas {
+  width: 64px;
+  height: 32px;
+  border: none;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 768px) {
+  .btn-beli {
+    background-color: #184d47;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+  .container-produk {
+    justify-content: center;
+  }
+}

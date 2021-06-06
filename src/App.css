@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../src/assets/fonts/Montserrat-SemiBold.ttf);
+}
+
+body{
+  font-family: Montserrat;
+}

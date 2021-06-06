@@ -1,0 +1,26 @@
+.thumb-diskon {
+  width: 350px;
+  height: 200px;
+  background-repeat: no-repeat;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  transition: 0.9s;
+  margin-top: 15px;
+}
+.content-diskon {
+  flex-wrap: wrap;
+}
+.thumb-diskon:hover {
+  opacity: 0.8;
+  background-size: cover;
+}
+.text-discount {
+  margin-top: auto;
+}
+.thumb-diskon strong,
+.thumb-diskon p {
+  color: #ffff;
+  font-size: 25px;
+}

@@ -1,0 +1,23 @@
+#forum-card {
+    padding: 2%;
+    margin-bottom: 2%;
+    background-color: #fff;
+}
+
+.thumb-forum {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.isi-forum {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.hapus-thread:hover {
+    cursor: pointer;
+}

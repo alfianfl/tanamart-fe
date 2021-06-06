@@ -1,0 +1,34 @@
+.slick-prev:before {
+  color: rgb(85, 85, 85) !important;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.card-img-top {
+  max-height: 200px;
+  min-height: 200px;
+  object-fit: cover;
+}
+
+.slick-next:before {
+  color: rgb(85, 85, 85) !important;
+  background-color: rgba(255, 255, 255, 0);
+}
+.slickSlider {
+  width: 95%;
+}
+@media only screen and (max-width: 414px) {
+  .slickSlider {
+    width: 85%;
+  }
+  .slick-prev:before {
+    font-size: 25px;
+    z-index: 2;
+  }
+
+  .slick-next:before {
+    z-index: 2;
+    font-size: 25px;
+    position: relative;
+    right: 5px;
+  }
+}

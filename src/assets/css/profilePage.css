@@ -1,0 +1,41 @@
+.btn-edit-profile{
+    background-color: #184D47;
+    font-weight: 600;
+    color: #ffff;
+}
+#profile-page{
+    background-color: #E5E5E5;
+    height: 100vh;
+}
+#edit-profile{
+    background-color: #E5E5E5;
+    height: 100vh;
+}
+.btn-edit-profile:hover{
+    background-color: #15443f;
+    color: #ffff;
+}
+.detail-profile{
+    height: 300px;
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+}
+.alamat p, .email p, .no-telp p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.detail-profile strong{
+    font-size: 20px;
+}
+.thumb-img{
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+    border-radius: 50%;
+}
+.thumb-img img{
+    height: 150px;
+    border-radius: 50%;
+    max-width: 150px;   
+}

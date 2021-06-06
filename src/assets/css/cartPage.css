@@ -1,0 +1,94 @@
+#cart-page {
+    background-color: #F1F1F1;
+    padding-bottom: 10%;
+}
+
+.cart-header {
+    background-color: #97BB7D;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.cart-body {
+    background-color: #D6EFC7;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    color: #184D47;
+    text-align: center;
+    width: 100%;
+}
+
+.kuantitas {
+    width: 64px;
+    height: 32px;
+    border: none;
+    text-align: center;
+}
+
+.btn-kuantitas {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background-color: #F1F1F1;
+}
+
+.btn-aksi {
+    border: none;
+    border-radius: 5px;
+    width: 64px;
+    height: 32px;
+    background-color: #FAD585;
+    color: #184D47;
+}
+
+.btn-checkout {
+    background-color: #184D47;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-checkout:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cart-container{
+    padding: 5%;
+    width: 1350px;
+}
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 1098px) {
+    .cart-container{
+        overflow-x: scroll;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    #cart-page{
+        overflow: auto;
+    }
+}

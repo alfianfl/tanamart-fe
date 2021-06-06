@@ -1,0 +1,38 @@
+.content-video {
+  background-color: rgb(175, 170, 170);
+  width: 350px;
+  height: 250px;
+}
+.video-desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.content {
+  background-color: #184d47;
+  color: #ffff;
+}
+.content h1,
+.content p {
+  font-weight: 600;
+}
+
+.btn-video {
+  background-color: #ba8a5c;
+  color: white;
+  font-weight: 600;
+  transition: 0.8s;
+}
+.btn-video:hover {
+  background-color: #ac6c30;
+  color: white;
+}
+
+/* responsive breakpoint */
+/* @media only screen and(max-width:414px) {
+  .video-desc {
+    width: 100%;
+  }
+} */

@@ -1,0 +1,152 @@
+/* Navbar */
+.nav-mobile {
+  background-color: #184d47;
+  width: 100%;
+  font-weight: 10px;
+  z-index: 9999;
+  font-family: "Montserrat", sans-serif;
+}
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.nav-mobile ul {
+  background-color: #184d47;
+  display: flex;
+
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav-mobile ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  font-size: 0.8em;
+}
+
+/* hamburger menu */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+.menu-toggle input {
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  left: -6px;
+  top: -3px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+  z-index: 2;
+  transition: all 0.5s;
+}
+/* responsive */
+
+/* ukuran mobile */
+@media screen and (max-width: 576px) {
+  .menu-toggle input {
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    left: -10px;
+    top: -30px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 999;
+  }
+  .checkbox:checked ~ .navicon:nth-child(4) {
+    background: transparent;
+  }
+
+  .checkbox:checked ~ .navicon:nth-child(2) {
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+
+  .checkbox:checked ~ .navicon:nth-child(3) {
+    transform: rotate(45deg) translate(0px, 0);
+  }
+  .nav-mobile ul {
+    position: fixed;
+    z-index: 1;
+    right: 140px;
+    top: 0;
+    height: 100vh;
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #184d47;
+    transform: translateX(-100%); /*agar posisi disembunyikan ke kiri*/
+    transition: all 1s;
+    opacity: 0;
+  }
+  .nav-mobile li:nth-child(8) {
+    order: 1;
+  }
+  .nav-mobile li:nth-child(1) {
+    order: 7;
+  }
+  .nav-mobile li:nth-child(2) {
+    order: 8;
+  }
+  .nav-mobile li:nth-child(3) {
+    order: 4;
+  }
+  .nav-mobile li:nth-child(4) {
+    order: 5;
+  }
+  .nav-mobile li:nth-child(5) {
+    order: 6;
+  }
+  .nav-mobile li:nth-child(6) {
+    order: 2;
+  }
+  .nav-mobile li:nth-child(7) {
+    order: 3;
+  }
+  .nav-mobile li {
+    position: relative;
+    top: 40px;
+    z-index: 1;
+  }
+
+  .menu-toggle {
+    display: flex;
+    color: white;
+    order: 1;
+  }
+  .logo {
+    order: 2;
+  }
+  .udlitebtn-m {
+    order: 3;
+  }
+
+  .nav-mobile ul.slide {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo-nav {
+    display: none;
+  }
+}

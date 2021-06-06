@@ -1,0 +1,14 @@
+.komentar-body{
+    padding: 2%;
+    margin-bottom: 2%;
+    background-color: #fff;
+}
+
+.btn-send{
+    background-color: transparent;
+    border: none;
+    color: #184d47;
+    width: 100px;
+    /* height: 80px; */
+    font-size: 24px
+}
